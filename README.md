@@ -25,6 +25,8 @@ Where to locate video file : refer to cap var.
 Running video_viewer_textfile_data_reader.py:
 This file will enable you to read data from text file and display it on your video frames.
 This data is generated from other headpose/ gaze algorithms and stored in textfile.
+You can find the headpose and gaze algorithms here: https://github.com/wiamBoumaazi/UCSF-ML-project
+
 There are three files that you need to download and use in order to display the data on the frame. 
 - one file contains head pose data in a video for each frame. each line in the file contain this information: frame_index pitch roll yaw (in degree)
 - second file contains Normalized gaze (in degree): frame_index Normalized_gaze
